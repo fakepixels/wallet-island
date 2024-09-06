@@ -1,4 +1,15 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Draggable Crypto Wallet Component
+
+This is a [Next.js](https://nextjs.org) project featuring a draggable wallet component with expandable view.
+
+## Features
+
+- Draggable wallet pill component
+- Expandable wallet view with detailed balance and coin information
+- Animated transitions using Framer Motion
+- Copy-to-clipboard functionality for wallet address
+- QR code display for receiving crypto
+- Responsive design
 
 ## Getting Started
 
