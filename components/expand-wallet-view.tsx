@@ -3,7 +3,7 @@
 import { useState } from 'react'
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
-import { Clock, ArrowDownToLine, RefreshCw, Send, DollarSign, Percent, Copy, Check } from 'lucide-react'
+import { Clock, ArrowDownToLine, RefreshCw, Send, DollarSign, Percent, Copy, Check, Wallet } from 'lucide-react'
 import QRCode from 'react-qr-code' // You'll need to install this package
 
 interface ExpandWalletViewProps {
@@ -45,6 +45,14 @@ export function ExpandWalletView({ balance }: ExpandWalletViewProps) {
                   <Copy className="h-4 w-4 text-gray-500" />
                 )}
               </button>
+              <a
+                href="https://wallet.coinbase.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="ml-2 p-1 rounded-full hover:bg-gray-100 transition-colors duration-200"
+              >
+                <Wallet className="h-4 w-4 text-gray-500" />
+              </a>
             </div>
             <Button variant="ghost" size="icon">
               <Clock className="h-4 w-4" />
