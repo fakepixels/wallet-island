@@ -2,6 +2,8 @@
 
 This is a [Next.js](https://nextjs.org) project featuring a draggable wallet component with expandable view.
 
+![Wallet-Island](https://github.com/user-attachments/assets/5f67cc3b-706a-4f41-8c94-ee00ab5f7297)
+
 ## Features
 
 - Draggable wallet pill component
