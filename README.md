@@ -1,4 +1,4 @@
-# Draggable Crypto Wallet Component
+# Wallet Island 🏝️🏝️
 
 This is a [Next.js](https://nextjs.org) project featuring a draggable wallet component with expandable view.
 
